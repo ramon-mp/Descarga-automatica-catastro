@@ -24,7 +24,7 @@ file_download <- 'BU'
 # lectura .csv lista de municipios
 df <- read.csv('list-muni.csv', 
                sep = ',', 
-               encoding = "UTF-8", 
+               encoding = 'UTF-8', 
                colClasses = 'character')
 
 # seleccion municipios provincia seleccionada
